@@ -1,0 +1,126 @@
+.button {
+    font-family: "Glory";
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: grey;
+}
+
+/* for 0 to 600px aka mobile do this */
+@media (max-width: 600px)  {
+    h1 {
+        margin-top: 2rem;
+        font-size: 1.25rem;
+        margin-left: 20%;
+        margin-right: 20%;
+        
+    }
+    .h2.main-text {
+        font-size: 2.4rem;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+/* for 601px and up aka laptops, desktop, extra wide */
+@media (min-width: 601px) {
+    h1 {
+        margin-top: 3.5rem;
+        font-size: 5rem;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .h2.main-text {
+        font-size: 3.3em;
+        margin-left: 20%;
+        margin-right: 20%;
+    }   
+}
+
+
+/* for 801 tablets */
+@media (min-width: 801px) {
+   
+    
+    h1 {
+        margin-top: 4rem;
+        font-size: 6rem;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .h2.main-text {
+        font-size: 8rem;
+        margin-left: 20%;
+        margin-right: 20%;
+    }   
+    
+}
+
+
+
+
+
+  /* unvisited link */
+  a {
+    color: black;
+  }
+
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+
+
+  body {
+    
+    font-family: "Glory", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-image: url('images/img_0193.jpg');
+    width: auto;
+    height: auto;
+
+  }
+
+  /* Style the list */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
